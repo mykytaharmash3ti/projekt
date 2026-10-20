@@ -7,6 +7,9 @@ body {
 main {
     display: flex;
 }
+#e {
+    width: 90%;
+}
 #q {
     display: flex;
 }
@@ -28,9 +31,10 @@ aside {
     width: 10%;
     height: 700px;
     overflow: hidden;
-    img {
+    align-items: flex-end;
+}
+aside img {
     width: 100%;
-    }
 }
 span {
     font-size: 200%;
